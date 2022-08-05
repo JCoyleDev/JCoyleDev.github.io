@@ -38,6 +38,15 @@ table {
     background: rgb(217, 250, 245);
     width: 350px;
 }
+div {
+    margin: 20px auto 20px;
+    border-radius: 5px;
+    border: teal solid;
+    padding: 10px;
+    background: rgb(217, 250, 245);
+    width: 900px;
+    text-align: left;
+}
 a:visited {
     color: teal
 }
@@ -45,7 +54,10 @@ a:hover {
     color: rgb(112, 34, 238);
 }
 ul {
-    display: none;
+    list-style-type: square;
+}
+li {
+    padding: 3px;
 }
 #interestsList {
     margin: 20px auto 20px;
@@ -58,4 +70,12 @@ ul {
 }
 #audio {
     margin: 50px;
+}
+#basicHTMLSetupScreenshot {
+    display: block;
+    padding: 20px;
+}
+#simplePortfolioHTMLDocScreenshot {
+    display: block;
+    padding: 20px;
 }
