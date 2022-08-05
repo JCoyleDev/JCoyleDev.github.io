@@ -74,8 +74,12 @@ li {
 #basicHTMLSetupScreenshot {
     display: block;
     padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
 #simplePortfolioHTMLDocScreenshot {
     display: block;
     padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
