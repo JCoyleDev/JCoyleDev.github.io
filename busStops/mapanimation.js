@@ -11,21 +11,16 @@ const marker = new mapboxgl.Marker();
 marker.setLngLat([-117.358486, 47.673093]);
 marker.addTo(map);
 
-async function busData() {
+
+/*async function busData() {
   let url = 'https://gtfsbridge.spokanetransit.com/vehicles';
   const res = await fetch(url);
   const data = await res.text();
   console.log(data);
   return data;
-}
+}*/
 
-function busTracker() {
-  let data = busData();
-
-}
-
-
-/*let stopPins = [
+let stopPins = [
   {
     StopName: 'SCC Transit Center Bay 3',
     StopNo: 4377,
@@ -144,4 +139,4 @@ function addPins(){
   };
 };
 
-addPins();*/
+addPins();
