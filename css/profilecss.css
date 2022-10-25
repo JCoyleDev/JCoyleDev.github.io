@@ -11,6 +11,7 @@ body{
 }
 a {
     text-decoration: none;
+    color: white;
 }
 a:visited {
     color: white;
@@ -100,6 +101,7 @@ a:hover {
 }
 .tableCol2 {
     padding-top: 5%;
+    width: 60%;
 }
 #aboutMeH2 {
     color: white;
@@ -118,7 +120,7 @@ a:hover {
 }
 #mainAboutMe {
     color: white;
-    font-size: x-large;
+    font-size: larger;
     padding-right: 30%;
     font-family: quicksand;
 }
