@@ -2,7 +2,8 @@
 
 body{
     font-family: garamond, times, serif;
-    background-color: black;
+    background-image: url('../images/blackandorangebg.jpeg');
+    background-size: 100%;
 }
 .grid {
     display: grid;
@@ -23,10 +24,10 @@ a:hover {
     width: 100%
 }
 
-#pavilionPic {
+#blackbanner {
     width: 100%;
     margin: none;
-    border: none;
+    border: 5% solid black;
     padding: none;
 }
 
@@ -43,10 +44,11 @@ a:hover {
     margin-right: auto;
     margin-top: 30px;
     margin-bottom: 60px;
-    padding-top: 30px;
+    padding-top: 27%;
+    padding-left: 5%;
 }
 .nav-bar a{
-    background-color: rgb(166, 195, 233);
+    background-color: rgb(108, 110, 112);
     padding: 15px;
     font-size: 20px;
     font-family: quicksand;
@@ -54,10 +56,10 @@ a:hover {
     font-weight: bold;
     width: 100%;
     display: block;
-    color: #02457d;
+    color: black;
 }
 .nav-bar a.active {
-    background-color: #02457d;
+    background-color: rgb(25, 25, 26);
     color: white;
 }
 .nav-bar a:hover {
