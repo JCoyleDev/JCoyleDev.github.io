@@ -1,40 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>MITXPro Projects</title>
-  <link rel="stylesheet" href="css/profilecss.css" />
+    <meta charset="utf-8"/>
+    <title>JCoyle Dev Portfolio</title>
+    <link rel="stylesheet" href="css/profilecss.css" />
 
-  <!--QuickSand Font-->
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">  
+<!--QuickSand Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">  
+    
+    
 </head>
 <body>
+
 <!--Grid Wrapper-->
 <div id="bodyGrid" class="grid">
 
 <!--Banner-->    
-      <div class="banner">
-          <img id="blackbanner" src="images/blackbanner.png" title="Black Abstract"/>
-      </div>
-  
+    <div class="banner">
+        <a href="https://github.com/JCoyleDev"><img id="blackbanner" src="images/blackbanner.png" title="Black Abstract"/></a>
+    </div>
+
 <!--NavBar-->
-      <div class="sideBar">
-          <div class="nav-bar">
-              <a href="https://jcoyledev.github.io/">Home</a>
-              <a class="active" href="https://jcoyledev.github.io/mitxproprojects.html">MITXPro Projects</a>
-              <a>Contact Me</a>
-          </div>
-      </div>
-  
+    <div class="sideBar">
+        <div class="nav-bar">
+            <a href="https://jcoyledev.github.io/">Home</a>
+            <a class="active" href="https://jcoyledev.github.io/mitxproprojects.html">MITXPro Projects</a>
+<!--            <a href="https://jcoyledev.github.io/first-github.html">GitHub How-To</a>
+            <a>PacMen</a>
+            <a>Eyes</a>
+            <a href="https://jcoyledev.github.io/busStops/spokanebus.html">Spokane SCC Bus Route</a>-->
+            <a>Contact Me</a>
+        </div>
+    </div>
+
 <!--Main Content-->
-      <div class="main"></div>
-  
+    <div class="main">
+        <table id="mainTable">
+            <tr>
+                <td>
+                    <a href="https://github.com/JCoyleDev/PacMenExercise"><img src="images/pacmenss.png" id="pacmenss" class="project-images" title="PacMen Exercise Screenshot" /></a>
+                </td>
+                <td class="tableCol2">
+                    <a href="https://github.com/JCoyleDev/PacMenExercise"><h2 id="pacmenH2" class="project-headings">PacMen Exercise</h2></a>
+                    <p id="mainPacMen" class="project-text">
+                        The goal of the PacMen exercise was to create a simple game where the user can generate images of PacMan and have them bounce around the screen. 
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="https://github.com/JCoyleDev/STASCCBusRoute"><img src="images/stabusroutess.png" id="stass" class="project-images" title="STA SCC Bus Route" /></a>
+                </td>
+                <td class="tableCol2">
+                    <a href="https://github.com/JCoyleDev/STASCCBusRoute"><h2 id="staH2" class="project-headings">Spokane Transit Authority SCC Bus Route</h2></a>
+                    <p id="mainSTA" class="project-text">
+                        This project is a work in progress. The goal of the project is to show the realtime bus location on the SCC bus route in Spokane, WA.
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="https://github.com/JCoyleDev/EyeMovementExercise"><img src="images/eyesss.png" id="eyesss" class="project-images" title="Moving Eyes Exercise" /></a>
+                </td>
+                <td class="tableCol2">
+                    <a href="https://github.com/JCoyleDev/EyeMovementExercise"><h2 id="eyesH2" class="project-headings">Eye Movement Exercise</h2></a>
+                    <p id="mainEyes" class="project-text">
+                        The goal of this exercise was to get two eyes on the screen to follow the user's mouse movements.
+                    </p>
+                </td>
+            </tr>
+        </table>
+    </div>
+
 <!--Footer-->
-      <div class="footer"></div>
-  <script src="script.js"></script>
+    <div class="footer"></div>
+
+</div>
+<script src="script.js"></script>
 </body>
 </html>
