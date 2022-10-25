@@ -9,12 +9,6 @@ body{
     display: grid;
     grid-template-columns: 20% 40% 40%;
 }
-a:visited {
-    color: teal
-}
-a:hover {
-    color: rgb(112, 34, 238);
-}
 
 /* Banner Objects */
 
@@ -60,12 +54,13 @@ a:hover {
 }
 .nav-bar a.active {
     background-color: rgb(25, 25, 26);
+    width: 105%;
     color: white;
 }
 .nav-bar a:hover {
     background-color: rgb(187, 60, 14);
     color: white;
-    width: 105%
+    width: 105%;
 }
 
 
