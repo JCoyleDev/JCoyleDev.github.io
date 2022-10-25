@@ -130,6 +130,11 @@ a:hover {
     padding-right: 30%;
     font-family: quicksand;
 }
+#introVideo {
+    padding-left: 20%;
+    padding-top: 5%;
+    border: none;
+}
 
 
 /* Footer */
