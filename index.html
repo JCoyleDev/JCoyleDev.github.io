@@ -4,49 +4,55 @@
     <meta charset="utf-8"/>
     <title></title>
     <link rel="stylesheet" href="css/profilecss.css" />
+
+<!--QuickSand Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">   
 </head>
 <body>
-<h1>Jordan Coyle's Portfolio</h1>
-<section id="aboutMe">
-    <img src="images/profilePhoto.jpg" id="profilePic" title="Profile - Jordan Coyle" width="200" alt="A black and white photo of Jordan Coyle" />
-    <div class="nav-bar">
-        <a class="active" href="https://jcoyledev.github.io/">Home</a>
-        <a href="https://jcoyledev.github.io/first-github.html">GitHub How-To</a>
+
+<!--Grid Wrapper-->
+<div id="bodyGrid" class="grid">
+
+<!--Banner-->    
+    <div class="banner">
+        <img id="pavilionPic" src="images/thePavilioncropped.png" title="Spokane Pavilion" width="800" alt="Picture of one of downtown Spokane's waterfalls with the Pavilion in the background"/>
     </div>
-    <h2>About Me</h2>
-    <table id="aboutMeTable">
-                <tr>
-            <th>Current City: </th>
-            <td><a href="https://en.wikipedia.org/wiki/Spokane,_Washington">Spokane, WA</a></td>
-        </tr>
-        <tr>
-            <th>Current Profession: </th>
-            <td>Freelance Copywriter</td>
-        </tr>
-    </table>
-    <p id="mainAboutMe" class="standard-sections">
-        Hello, my name is Jordan!<br/><br/>
-        I am a technical writer and content editor looking to transition into a developer role. I have completed NuCamp's foundational Web Development bootcamp (HTML, CSS, JavaScript), and now I am currently working through the MERN Full Stack Development professional certificate with MIT xPro. <a href="busStops/spokanebus.html">Bus</a>
-    </p>
-       </section>
-<section id="interests">
-    <h2>Interests</h2>
-    <div id="interestsList">
-        Video Games <br /><br />
-        Singing & Music <br /><br />
-        Outdoors & Camping <br /><br />
-        Reading <br /><br />
-        Gardening <br /><br />
-        Cooking 
+
+<!--NavBar-->
+    <div class="sideBar">
+        <div class="nav-bar">
+            <a class="active" href="https://jcoyledev.github.io/">Home</a>
+            <a href="https://jcoyledev.github.io/first-github.html">GitHub How-To</a>
+            <a>PacMen</a>
+            <a>Eyes</a>
+            <a href="https://jcoyledev.github.io/busStops/spokanebus.html">Spokane SCC Bus Route</a>
+            <a>Contact Me</a>
+        </div>
     </div>
-      </section>
-<section id="audio">
-    <h4>Here's a song presently in heavy rotation on my playlists:</h4>
-    <audio src="mp3s/Crying_wind_(getmp3.pro).mp3" controls loop alt="Crying Wind by Black Hill & Silent Island">Your browser does not support HTML5 audio. Here is <a href="mp3s/Crying_wind_(getmp3.pro).mp3">a link to the audio</a> instead.</audio>
-</section>
-<br>
-<section id="pavilion">
-    <img id="pavilionPic" src="images/thePavilion.jpg" title="Spokane Pavilion" width="800" alt="Picture of one of downtown Spokane's waterfalls with the Pavilion in the background"/>
-</section>
+
+<!--Main Content-->
+    <div class="main">
+        <table id="mainTable">
+            <tr>
+                <td>
+                    <img src="images/profilePhoto.jpg" id="profilePic" title="Profile - Jordan Coyle" alt="A black and white photo of Jordan Coyle" />
+                </td>
+                <td class="tableCol2">
+                    <h2 id="aboutMeH2">Hi! I'm Jordan.</h2>
+                    <p id="mainAboutMe">
+                        I am a technical writer and content editor looking to transition into a developer role. I have completed NuCamp's foundational Web Development bootcamp (HTML, CSS, JavaScript), and now I am currently working through the MERN Full Stack Development professional certificate with MIT xPro.
+                    </p>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+<!--Footer-->
+    <div class="footer"></div>
+
+</div>
+<script src="script.js"></script>
 </body>
 </html>
