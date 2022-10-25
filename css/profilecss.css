@@ -9,6 +9,12 @@ body{
     display: grid;
     grid-template-columns: 20% 40% 40%;
 }
+a {
+    text-decoration: none;
+}
+a:hover {
+    color:rgb(187, 60, 14);
+}
 
 /* Banner Objects */
 
@@ -81,6 +87,14 @@ body{
     padding-left: 30%;
     padding-top: 10%;
 }
+.project-images {
+    width: 60%;
+    padding-left: 30%;
+    padding-top: 10%;
+}
+.project-images:hover {
+    width: 65%;
+}
 .tableCol2 {
     padding-top: 5%;
 }
@@ -90,7 +104,22 @@ body{
     font-variant: small-caps;
     font-size: xx-large;
 }
+.project-headings {
+    color: white;
+    font-family: quicksand, sans-serif;
+    font-variant: small-caps;
+    font-size: xx-large;
+}
+.project-headings:hover {
+    color: rgb(187, 60, 14);
+}
 #mainAboutMe {
+    color: white;
+    font-size: x-large;
+    padding-right: 30%;
+    font-family: quicksand;
+}
+.project-text {
     color: white;
     font-size: x-large;
     padding-right: 30%;
@@ -107,7 +136,7 @@ body{
 
 /* First GitHub Page */
 
-#howToTitle {
+/*#howToTitle {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-variant: small-caps;
     font-size: 60px;
@@ -139,4 +168,4 @@ body{
     padding: 20px;
     margin-left: auto;
     margin-right: auto;
-}
+}*/
